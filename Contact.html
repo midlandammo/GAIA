@@ -1,0 +1,83 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <head> 
+		<meta name="description" content="Send a message to our friendly team">
+    <meta name="keywords" content="eco_friendly, environment, gaia">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=992px" initial-scale="1.0">
+    <meta name="viewport" content="width=600px" initial-scale="1.0">
+    <title>Contact Gaia</title>
+
+  <script>
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+    x.className += " responsive";
+    } 
+    else {
+      x.className = "topnav";
+    }}
+  </script>
+
+  </head> 
+	
+  <body> 
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="About.html">About Us</a>
+      <a href="Contact.html" class="active">Contact Us</a>
+      <a href="Seas.html">Seas</a>
+      <a href="Recycling.html">Recycling</a>
+      <a href="Forests.html">Forests</a>
+      <a href="Weather.html">Weather</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>
+    </div>
+    
+    <div class="div1">
+      <h1>Contact Us</h1>
+    </div>
+  
+    <div class="div2">
+    <p1>
+    <div class="form">
+      <form>
+          <label for="fname">First Name: </label>
+        <br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">Last Name: </label>
+        <br>
+          <input type="text" id="lname" name="lname">
+        <br><br>
+          <label for="gender">Gender: </label>
+        <br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        <br><br>
+            <label for="location">Location: </label>
+        <br>
+            <input type="text" id="location" name="location"><br>
+        <br><br>
+            <label for="message">Message: </label><br>
+            <textarea id="message" name="message" rows="4" cols="30">
+            </textarea>
+        <br><br>
+            <input type="submit" value="Submit">
+      </form>
+      </div>
+      </p1>
+      </div>
+
+    
+	   <footer>
+      <p>Copyright @2023<br>
+      <a href="mailto:gaia_environment@gmail.com">gaia_environmental@gmail.com</a></p>
+    </footer>
+</body> 
+</html>
